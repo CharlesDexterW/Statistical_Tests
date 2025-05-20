@@ -7,7 +7,7 @@ library(ggplot2) ## needed to plot the graphs
 library(tidyr)
 
 ## ---
-## first let's load my data. This is real data from the lab I work at in Centro Jambatu. 
+## first let's load my data. This is real data from the lab I currently work at. 
 ## It corresponds spermic urine of four different Atelopus longirostris specimens collected by me.
 
 xlr <- read_xlsx("Cryoprotectant_Results.xlsx")
