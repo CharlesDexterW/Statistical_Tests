@@ -43,6 +43,11 @@ Generate two bar plots visualizing mean sperm motility with standard deviation e
 Perform an ANOVA test for each treatment to determine if there are significant differences in motility across time lapses.
 Print the summary results of the ANOVA tests to the console.
 
+# Discussion & Results
+
+There's no statistical difference between time lapses in neither of the treatments. At least not with this dataset. But it's alright  because there was no big difference  between the motility of time lapse 5 and the starting time lapse of each sample. We just kept collecting samples to tell if there was any problem with the CPA formulations. So, there you go. 
+If this dataset had given a significant difference among the time lapses, the logical next step would have been to run a Post-Hoc test to tell wich time lapse yields the most different result.
+
 Author
 
 Benjamin Garcés - Biochemistry Engineer
