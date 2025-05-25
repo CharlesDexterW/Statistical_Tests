@@ -1,4 +1,5 @@
 # Statistical Tests
+## Personal Introduction
 During my undergraduate studies in Biochemistry Engineering, I took a full semester of Experimental Design with an excellent professor from Cuba. His teaching methodology involved thirty straight minutes of writing the theory for each ANOVA method by hand and performing all calculations for each problem the same way. Although I've never had to do it by hand again since we learned how to use SPSS the following semester I still remember my hand and butt used aching during weekends spent transcribing full datasets and analysing them. Anyway, I decided to learn R for creating Markdown files the moment Overleaf couldn't process my research thesis images due to their size. After I completed my thesis, I realized I might as well learn how to perform statistical analysis with R.. 
 
 So here we are.
@@ -43,7 +44,7 @@ Generate two bar plots visualizing mean sperm motility with standard deviation e
 Perform an ANOVA test for each treatment to determine if there are significant differences in motility across time lapses.
 Print the summary results of the ANOVA tests to the console.
 
-# Discussion & Results
+## Discussion & Results
 
 There's no statistical difference between time lapses in neither of the treatments. At least not with this dataset. But it's alright  because there was no big difference  between the motility of time lapse 5 and the starting time lapse of each sample. We just kept collecting samples to tell if there was any problem with the CPA formulations. So, there you go. 
 If this dataset had given a significant difference among the time lapses, the logical next step would have been to run a Post-Hoc test to tell wich time lapse yields the most different result.
