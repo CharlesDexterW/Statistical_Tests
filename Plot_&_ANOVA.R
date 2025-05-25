@@ -70,12 +70,3 @@ print(summary(anova_cpa1))
 
 print("ANOVA for CPA2:")
 print(summary(anova_cpa2))
-
-## As you can see, there's no statistical difference between time lapses in neither of 
-## the treatments. At least not with this dataset. But it's alright 
-## because there was no big difference  between the motility of time lapse 5
-## and the starting time lapse of each sample. We just kept collecting samples to 
-## tell if there was a problems with the CPA formulations. So, there you go. 
-
-## My next step if there was significant difference would be to run a Post-Hoc 
-##test to tell wich time lapse yields the most different result.
