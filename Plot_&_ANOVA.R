@@ -1,7 +1,8 @@
 ##SETUP
 ## First of To load the needed packages
 
-library(tidyverse) ## it's only necessary for loading the "readxl" function 
+library(tidyverse) ## this one usually allow the readxl functions to work. 
+library(readxl) ## I had to add this one alone anyway since the read_xlsx function didn't work properly on my last run.
 library(dplyr) ## this one I'll use it for later.
 library(ggplot2) ## needed to plot the graphs
 library(tidyr)
