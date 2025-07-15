@@ -43,15 +43,16 @@ Calculate mean and standard deviation of motility for each time lapse under both
 Generate two bar plots visualizing mean sperm motility with standard deviation error bars for CPA1 and CPA2.
 Perform an ANOVA test for each treatment to determine if there are significant differences in motility across time lapses.
 Print the summary results of the ANOVA tests to the console.
-## Results
-
-<img width="614" height="355" alt="Rplot_CPA1_04_07_2025" src="[https://github.com/user-attachments/assets/68bc9045-8a1a-41d7-8c88-3c31c37f4598](https://github.com/CharlesDexterW/Statistical_Tests/blob/main/Sperm_Motility_CPA1.png?raw=true)" />
-*Figure 1: Plot visualizing the effects of Cryoprotective Agent (CPA) 1 on sperm motility. 
-
 
 ## Discussion & Results
 
 So far, there's a significant difference between time lapses in the second treatment. The Tukey test indicates a significant difference in Time 5  in comparisson to the Times 15 and 20, during the second treatment. However, these preliminary results come from a sample too small to be considered statistically significant, according to the One-way ANOVA run at the end of the code. 
+
+<img width="614" height="355" alt="Rplot_CPA1_04_07_2025" src="https://github.com/user-attachments/assets/80119964-bff8-470c-af28-4752266bed4b" />
+
+*Figure 1: Plot visualizing the effects of Cryoprotective Agent (CPA) 1 on sperm motility. 
+
+
 
 Author
 
