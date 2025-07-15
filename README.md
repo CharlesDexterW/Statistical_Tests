@@ -24,10 +24,13 @@ To run this analysis, you will need to have R and RStudio installed on your syst
 **Prerequisites**
 Ensure you have the following R packages installed. If not, you can install them using the install.packages() function in R:
 
-install.packages("tidyverse")
-install.packages("ggplot2")
-install.packages("tidyr")
-install.packages("pwr")
+- install.packages("tidyverse")
+  
+- install.packages("ggplot2")
+  
+- install.packages("tidyr")
+
+- install.packages("pwr")
 
 **Running the Script**
 Place the Cryoprotectant_Results.xlsx file in the same directory as the R script.
