@@ -84,6 +84,7 @@ So far, there's a significant difference between time lapses in the second treat
 *Figure 1: Jittered Plots visualizing the effects of Cryoprotective Agent (CPA) 1 (left) and CPA 2 (right), sperm motility percentage on four different time lapses. 
 
 <br>
+
 <br>
 
 <p align="center">
