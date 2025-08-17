@@ -53,6 +53,8 @@ Ensure you have the following R packages installed. If not, you can install them
 - library(pwr) 
 
 **Running the Script**
+
+
 Place the **prd.xlsx** file in the same directory as the R script.
 Open the R script in RStudio.
 Run the entire script.
