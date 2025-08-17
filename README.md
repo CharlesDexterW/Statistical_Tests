@@ -79,16 +79,12 @@ So far, there's a significant difference between time lapses in the second treat
 
 ---
 <p align="center">
-  <img src="[URL_of_Image_1](https://github.com/CharlesDexterW/Statistical_Tests/blob/main/CPA1_Jitter_Plor.png?raw=true)" width="450" hspace="20">
-  <img src="[URL_of_Image_2](https://github.com/CharlesDexterW/Statistical_Tests/blob/main/CPA2_Jitter_Plot.png?raw=true)" width="450" hspace="20">
+  <img src="https://github.com/CharlesDexterW/Statistical_Tests/blob/main/CPA1_Jitter_Plor.png?raw=true" width="450" hspace="20">
+  <img src="https://github.com/CharlesDexterW/Statistical_Tests/blob/main/CPA2_Jitter_Plot.png?raw=true" width="450" hspace="20">
 </p>
 *Figure 1: Jittered Plot visualizing the effects of Cryoprotective Agent (CPA) 1 (left) and CPA 2 (right), sperm motility percentage with standard deviation over 4 different time lapses. 
 
 ---
-
-<img width="921" height="533" alt="" src="https://github.com/CharlesDexterW/Statistical_Tests/blob/main/Sperm_Motility_CPA2.png?raw=true" />
-*Figure 2: Plot visualizing the effects of Cryoprotective Agent (CPA) 2 on sperm motility percentage with standard deviation over 4 different time lapses. 
-
 
 Author
 
