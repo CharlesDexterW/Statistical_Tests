@@ -1,0 +1,73 @@
+# Statistical Tests
+## Personal Introduction
+During my undergraduate studies in Biochemistry Engineering, I took a full semester of Experimental Design with an excellent professor from Cuba. His teaching methodology involved thirty straight minutes of writing the theory for each ANOVA method by hand and performing all calculations for each problem the same way. Although I've never had to do it by hand again since we learned how to use SPSS the following semester I still remember my hand and butt used aching during weekends spent transcribing full datasets and analysing them. Anyway, I decided to learn R for creating Markdown files the moment Overleaf couldn't process my research thesis images due to their size. After I completed my thesis, I realized I might as well learn how to perform statistical analysis with R.
+
+So here we are.
+During 2025 I've worked at the Research Center of Fundación Jambatu, running cryopreservation experiments with frog sperm. With the explicit permission of Andrea Terán, my supervisor, I used the gathered experimental data to establish the ranges and characteristics of the dataset utilized in this portfolio. The data presented here is a simulated representation of the real findings, created to secure against any potential disclosure of privileged project information.
+## Sperm Motility Analysis of Atelopus sp. with Cryoprotectant Formulations
+### Overview
+
+This R script performs an analysis of sperm motility data collected from _Atelopus sp_ specimens. The primary goal is to evaluate the effect of two different cryoprotectant formulations (CPA1 and CPA2) on sperm viability over various time points. This analysis includes data loading, cleaning, descriptive statistics, visualization through either jittered dot plots or bar plots with error bars, and ANOVA to assess statistical differences between treatments and time lapses.
+
+This project is part of ongoing research in amphibian conservation, specifically focusing on the cryopreservation of a specific Atelopus sp sperm, a critically endangered species. The data used in this analysis was personally collected by me in laboratory settings. Due to disclosure agreements with my current employer I won't discuss the two formulations of CPA.
+
+Data
+The raw data is stored in an Excel file named **prd.xlsx.** This file contains sperm motility percentages for different time lapses under two distinct cryoprotectant treatments. The data has been pre-processed and tidied in Google Sheets before being imported into R.
+
+**Column Descriptions:**
+**Treatment:** Denotes the cryoprotectant formulation applied (CPA1 or CPA2).
+**Time_Lapse:** The time point (in minutes) at which sperm motility was measured.
+**Motility:** The percentage of motile sperm at a given time and treatment.
+
+**Script Usage**
+To run this analysis, you will need to have R and RStudio installed on your system. This script was developed and tested on Ubuntu 24.04 LTS.
+
+**Prerequisites**
+Ensure you have the following R packages installed. If not, you can install them using the install.packages() function in R:
+
+- install.packages("tidyverse")
+  
+- install.packages("ggplot2")
+  
+- install.packages("tidyr")
+
+- library(readxl)
+
+- library(pwr) 
+
+**Running the Script**
+Place the **prd.xlsx** file in the same directory as the R script.
+Open the R script in RStudio.
+Run the entire script.
+
+**The script will:**
+
+Load the necessary libraries.
+Import the prd.xlsx dataset.
+Rename the columns for clarity.
+Create separate dataframes for CPA1 and CPA2 treatments.
+Calculate mean and standard deviation of motility for each time lapse under both treatments.
+Generate two jittered plots visualizing mean sperm motility with standard deviation error bars for CPA1 and CPA2.
+Perform a two-way ANOVA test to determine if there's a significant difference between both treatments.
+Perform an ANOVA test for each treatment to determine if there are significant differences in motility across time lapses.
+Perform a post-hoc test (Tuckey test) to determine if there are significant differences in motility among time lapses. 
+Print the summary results of of each test to the console.
+Additionally, it'll calculate a statistically appropriate sample size via ANOVA for these analysis. 
+
+## Discussion & Results
+
+So far, there's a significant difference between time lapses in the second treatment. The Tukey test indicates a significant difference in Time 5  in comparison to the Times 15 and 20, during the second treatment. However, these preliminary results come from a sample too small to be considered statistically significant, according to the One-way ANOVA run at the end of the code. 
+
+---
+<img width="921" height="533" alt="Rplot_CPA1_04_07_2025" src="https://github.com/user-attachments/assets/80119964-bff8-470c-af28-4752266bed4b" />
+*Figure 1: Plot visualizing the effects of Cryoprotective Agent (CPA) 1 on sperm motility percentage with standard deviation over 4 different time lapses. 
+
+---
+
+<img width="921" height="533" alt="Rplot_CPA2_04_07_2025" src="https://github.com/CharlesDexterW/Statistical_Tests/blob/main/Sperm_Motility_CPA2.png?raw=true" />
+*Figure 2: Plot visualizing the effects of Cryoprotective Agent (CPA) 2 on sperm motility percentage with standard deviation over 4 different time lapses. 
+
+
+Author
+
+A. Benjamin Garcés C.
