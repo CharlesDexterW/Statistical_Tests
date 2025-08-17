@@ -4,6 +4,8 @@ During my undergraduate studies in Biochemistry Engineering, I took a full semes
 
 So here we are.
 During 2025 I've worked at the Research Center of Fundación Jambatu, running cryopreservation experiments with frog sperm. With the explicit permission of Andrea Terán, my supervisor, I used the gathered experimental data to establish the ranges and characteristics of the dataset utilized in this portfolio. The data presented here is a simulated representation of the real findings, created to secure against any potential disclosure of privileged project information.
+
+
 ## Sperm Motility Analysis of Atelopus sp. with Cryoprotectant Formulations
 ### Overview
 
@@ -15,8 +17,12 @@ This project is part of ongoing research in amphibian conservation, specifically
 The raw data is stored in an Excel file named **prd.xlsx.** This file contains sperm motility percentages for different time lapses under two distinct cryoprotectant treatments. The data has been pre-processed and tidied in Google Sheets before being imported into R.
 
 **Column Descriptions:**
+
+
 **Treatment:** Denotes the cryoprotectant formulation applied (CPA1 or CPA2).
+
 **Time_Lapse:** The time point (in minutes) at which sperm motility was measured.
+
 **Motility:** The percentage of motile sperm at a given time and treatment.
 
 ### Methodology
@@ -27,9 +33,13 @@ Since this ins a simulated dataset taken from an ongoing project, we would like 
 
 
 **Script Usage**
+
+
 To run this analysis, you will need to have R and RStudio installed on your system. This script was developed and tested on Ubuntu 24.04 LTS.
 
 **Prerequisites**
+
+
 Ensure you have the following R packages installed. If not, you can install them using the install.packages() function in R:
 
 - install.packages("tidyverse")
