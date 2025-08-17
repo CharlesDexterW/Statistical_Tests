@@ -78,8 +78,11 @@ Additionally, it'll calculate a statistically appropriate sample size via ANOVA 
 So far, there's a significant difference between time lapses in the second treatment. The Tukey test indicates a significant difference in Time 5  in comparison to the Times 15 and 20, during the second treatment. However, these preliminary results come from a sample too small to be considered statistically significant, according to the One-way ANOVA run at the end of the code. 
 
 ---
-<img width="921" height="533" alt="" src="https://github.com/user-attachments/assets/80119964-bff8-470c-af28-4752266bed4b" />
-*Figure 1: Jittered Plot visualizing the effects of Cryoprotective Agent (CPA) 1 on sperm motility percentage with standard deviation over 4 different time lapses. 
+<p align="center">
+  <img src="[URL_of_Image_1](https://github.com/CharlesDexterW/Statistical_Tests/blob/main/CPA1_Jitter_Plor.png?raw=true)" width="450" hspace="20">
+  <img src="[URL_of_Image_2](https://github.com/CharlesDexterW/Statistical_Tests/blob/main/CPA2_Jitter_Plot.png?raw=true)" width="450" hspace="20">
+</p>
+*Figure 1: Jittered Plot visualizing the effects of Cryoprotective Agent (CPA) 1 (left) and CPA 2 (right), sperm motility percentage with standard deviation over 4 different time lapses. 
 
 ---
 
